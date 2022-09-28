@@ -1,7 +1,7 @@
 
 export const getData = [
   {
-    orderId: "123456",
+    orderId: "1",
     custonerPO: "customer",
     account: "account",
     orderDate: "01-28-2022",
@@ -25,7 +25,7 @@ export const getData = [
     orderTotal: "$ 567.98"
   },
   {
-    orderId: "123456",
+    orderId: "156",
     custonerPO: "customer",
     account: "account",
     orderDate: "01-28-2022",
