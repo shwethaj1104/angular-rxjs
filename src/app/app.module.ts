@@ -17,8 +17,6 @@ import { cartReducer } from './store/cart.reducer';
     BrowserModule,
     AppRoutingModule,
     AgGridModule,
-    // StoreModule.forRoot({cartEntries: courseReducer }),
-    // StoreModule.forRoot( courseReducer ),
     StoreModule.forRoot({ cartEntries: cartReducer }),
     
   ],
