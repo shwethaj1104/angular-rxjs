@@ -1,4 +1,4 @@
-# angular-rxjs
+# Sample application
 
 Clone project using : https://github.com/shwethaj1104/angular-rxjs.git
 
