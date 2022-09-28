@@ -1,56 +1,26 @@
 @import "~ag-grid-community/dist/styles/ag-grid.css";
 @import "~ag-grid-community/dist/styles/ag-theme-balham.css";
-.outer {
-    display: flex;
-    height: 100%;
-  }
-  
-  .drop-col {
-    padding-left: 10px;
-    box-sizing: border-box;
-    width: 0;
-    flex-grow: 1;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .drop-target {
-    border: 1px solid #888;
-    background-color: #88cc88;
-    padding: 10px;
-  }
-  
-  .json-display {
-    padding-top: 10px;
-    box-sizing: border-box;
-    flex-grow: 1;
-    border: 1px solid #888;
-    background-color: #f8f8f8;
-    overflow: auto;
-  }
-  
-  .json-row {
-    border: 1px solid grey;
-    margin: 4px;
-  }
-  
-  .grid-col {
-    width: 0;
-    flex: 1 1 auto;
-    position: relative;
-    height: 100%;
-  }
-  
-  .green-row {
-    background-color: #ddffdd !important;
-  }
-  
-  .red-row {
-    background-color: #ffdddd !important;
-  }
-  
-  .blue-row {
-    background-color: #ddddff !important;
-  }
-  
+.ag-header {
+  display: flex;
+  width: 100%;
+  white-space: nowrap;
+  background-color: #354f52;
+  color: white;
+}
+
+.ag-theme-balham{
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.ag-body-viewport.ag-layout-normal {
+  overflow-y: auto;
+  background-color: #e8e8e8;
+  padding: 1rem 1rem;
+}
+.ag-header-cell {
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  overflow: hidden;
+  padding: 0rem 1rem;}

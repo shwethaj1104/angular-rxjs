@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StoreModule } from '@ngrx/store';
 // import { courseReducer } from './store/reducers/course.reducer';
-import { cartReducer } from './store/cart.reducer';
+import { cartReducer } from './store/table.reducer';
 
 
 @NgModule({

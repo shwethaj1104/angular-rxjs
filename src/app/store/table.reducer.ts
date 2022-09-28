@@ -1,7 +1,7 @@
 import { createReducer, on } from '@ngrx/store';
 import { getData } from '../data';
 import { Product } from '../entity/product';
-import { addProduct } from './cart.actions';
+import { addProduct } from './table.actions';
 
 export const intialCartEntries: Product[] = [];
 

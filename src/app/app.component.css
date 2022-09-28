@@ -5,30 +5,9 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.container{
+  padding: 0.5rem 1rem 0rem 2rem;
+}
 
 .container-body{
   display: grid;
@@ -64,7 +43,7 @@ body{
     padding: 0.7rem;
   }
   .search-btn{
-    background-color: #034844;
+    background-color: #354f52;
   }
   .clear-btn{
     background-color: red;
@@ -75,14 +54,37 @@ body{
     justify-self: center;
   }
   .table-filter{
-    float: right;
+    display: flex;
+    justify-content: end;
   }
   .select-dropdown{
     width: 5rem;
   }
   .container-table{
     margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
   }
  .branch-input{
   width: 30rem;
  }
+ .right-select{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+ }
+ .right-Mark{
+  background-color: #2b5053;
+    color: white;
+    border-radius: 50%;
+    padding: 0.3rem;
+    font-weight: bold;
+}
+.order-placed{
+  background-color: #e1f5fea1;
+  border: 1px solid #00000030;
+  padding: 0.4rem;
+}
+ 
+
