@@ -2,89 +2,123 @@
 @import "~ag-grid-community/dist/styles/ag-theme-balham.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
 
-body{
+body {
   font-family: 'Roboto', sans-serif;
 }
-.container{
+
+.container {
   padding: 0.5rem 1rem 0rem 2rem;
 }
 
-.container-body{
+.container-body {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   background-color: #8080802e;
 
 }
 
-  .container-header-buttons{
-    display: flex;
-    flex-direction: row;
-    gap: 0.2rem;
-    margin: 1rem;
-  }
-  button{
-    border: none;
-    padding: 0.7rem;
-    font-weight: 500;
-  }
-  .orders-section{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding: 1rem;
-  }
-  .branch{
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-  }
- .btn{
-    color: white;
-    padding: 0.7rem;
-  }
-  .search-btn{
-    background-color: #354f52;
-  }
-  .clear-btn{
-    background-color: red;
-    margin-left: 1rem;
-  }
-  .buttons{
-    align-self: center;
-    justify-self: center;
-  }
-  .table-filter{
-    display: flex;
-    justify-content: end;
-  }
-  .select-dropdown{
-    width: 5rem;
-  }
-  .container-table{
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-  }
- .branch-input{
+h2 {
+  margin: 0;
+  color: grey;
+}
+
+.container-header-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 0.2rem;
+  margin: 1rem;
+}
+
+button {
+  border: none;
+  padding: 0.7rem;
+  font-weight: 500;
+}
+
+h3 {
+  color: gray;
+}
+
+hr {
+  color: gray;
+}
+
+.headre-btn {
+  border: none;
+  padding: 0.7rem;
+  font-weight: 800;
+  color: #574e4e;
+}
+
+.orders-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.branch {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.btn {
+  color: white;
+  padding: 0.7rem;
+  width: 10rem;
+}
+
+.search-btn {
+  background-color: #354f52;
+}
+
+.clear-btn {
+  background-color: red;
+  margin-left: 1rem;
+}
+
+.buttons {
+  align-self: center;
+  justify-self: center;
+}
+
+.table-filter {
+  display: flex;
+  justify-content: end;
+}
+
+.select-dropdown {
+  width: 5rem;
+}
+
+.container-table {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.branch-input {
   width: 30rem;
- }
- .right-select{
+}
+
+.right-select {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
- }
- .right-Mark{
-  background-color: #2b5053;
-    color: white;
-    border-radius: 50%;
-    padding: 0.3rem;
-    font-weight: bold;
 }
-.order-placed{
+
+.right-Mark {
+  background-color: #2b5053;
+  color: white;
+  border-radius: 50%;
+  padding: 0.3rem;
+  font-weight: bold;
+}
+
+.order-placed {
   background-color: #e1f5fea1;
   border: 1px solid #00000030;
   padding: 0.4rem;
 }
- 
-

@@ -1,20 +1,23 @@
 <div class="container">
     <header class="container-header">
-        Home > My Account
+        <h3>Home > My Account</h3>
     </header>
+
     <section class="container-header-buttons">
-        <button>PROFILE</button>
-        <button>NOTIFICATIONS</button>
-        <button>UPDATE PASSWORD</button>
-        <button>ADDRESS BOOK</button>
-        <button>PAYMENT METHODS</button>
-        <button>FAVORITES</button>
-        <button>INVOICES</button>
-        <button>SAVED CARTS</button>
-        <button>LOGOUT</button>
+        <button class="headre-btn">PROFILE</button>
+        <button class="headre-btn">NOTIFICATIONS</button>
+        <button class="headre-btn">UPDATE PASSWORD</button>
+        <button class="headre-btn">ADDRESS BOOK</button>
+        <button class="headre-btn">PAYMENT METHODS</button>
+        <button class="headre-btn">FAVORITES</button>
+        <button class="headre-btn">INVOICES</button>
+        <button class="headre-btn">SAVED CARTS</button>
+        <button class="headre-btn">LOGOUT</button>
     </section>
+
     <h2>Orders</h2>
     <hr>
+
     <main class="container-body">
         <div class="orders-section">
             <div class="branch">
@@ -36,7 +39,7 @@
             <div class="branch">
                 <label class="branch">Filter By Account</label>
                 <select class="select-dropdown">
-                    <option placeholder="Date" id="sortByDate" type="text" ></option>
+                    <option placeholder="Date" id="sortByDate" type="text"></option>
                 </select>
             </div>
         </div>
@@ -45,6 +48,7 @@
             <button class="btn clear-btn">CLEAR SEARCH</button>
         </div>
     </main>
+
     <div class="container-table">
         <div class="right-select">
             <div class="order-placed">
@@ -53,12 +57,14 @@
             <div class="table-filter">
                 <label for="sortByDate" class="sortBy">Sort By ::</label>
                 <select class="select-dropdown">
-                    <option placeholder="Date" id="sortByDate" type="text" ></option>
+                    <option placeholder="Date" id="sortByDate" type="text"></option>
                 </select>
             </div>
         </div>
+
         <ag-grid-angular style="width: 99%; height: 20rem;padding: 0.5rem;" class="ag-theme-alpine"
             [columnDefs]="columnDefs" [defaultColDef]="defaultColDef" [rowData]="rowData" [rowSelection]="'multiple'"
             [animateRows]="true"></ag-grid-angular>
+            
     </div>
 </div>
