@@ -1,0 +1,90 @@
+@import "~ag-grid-community/dist/styles/ag-grid.css";
+@import "~ag-grid-community/dist/styles/ag-theme-balham.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap'); */
+
+body{
+  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Lato', sans-serif; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-body{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #8080802e;
+
+}
+
+  .container-header-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+    margin: 1rem;
+  }
+  button{
+    border: none;
+    padding: 0.7rem;
+    font-weight: 500;
+  }
+  .orders-section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .branch{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+ .btn{
+    color: white;
+    padding: 0.7rem;
+  }
+  .search-btn{
+    background-color: #034844;
+  }
+  .clear-btn{
+    background-color: red;
+    margin-left: 1rem;
+  }
+  .buttons{
+    align-self: center;
+    justify-self: center;
+  }
+  .table-filter{
+    float: right;
+  }
+  .select-dropdown{
+    width: 5rem;
+  }
+  .container-table{
+    margin-top: 1rem;
+  }
+ .branch-input{
+  width: 30rem;
+ }

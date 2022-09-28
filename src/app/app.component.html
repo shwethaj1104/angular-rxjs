@@ -1,0 +1,59 @@
+<div class="container">
+    <header class="container-header">
+        Home > My Account
+    </header>
+    <section class="container-header-buttons">
+        <button>PROFILE</button>
+        <button>NOTIFICATIONS</button>
+        <button>UPDATE PASSWORD</button>
+        <button>ADDRESS BOOK</button>
+        <button>PAYMENT METHODS</button>
+        <button>FAVORITES</button>
+        <button>INVOICES</button>
+        <button>SAVED CARTS</button>
+        <button>LOGOUT</button>
+    </section>
+    <h2>Orders</h2>
+    <hr>
+    <main class="container-body">
+        <div class="orders-section">
+            <div class="branch">
+                <label class="branch">Select Branch</label>
+                <select class="select-dropdown">
+                    <option placeholder="Date" id="sortByDate" type="text" (keyup)="sortByDate()"></option>
+                </select>
+            </div>
+            <div class="branch">
+                <label class="branch">Select Orders</label>
+                <input placeholder="BDI order # , BDI Part #, Customer Pastr #, Order By" type="text"
+                    class="branch-input">
+            </div>
+            <div class="branch">
+                <input type="checkbox" class="branch">
+                <label class="branch">Show open orders only <span>Please Note : Recent orders may take upt to 15 minutes
+                        to appear in the page</span></label>
+            </div>
+            <div class="branch">
+                <label class="branch">Filter By Account</label>
+                <select class="select-dropdown">
+                    <option placeholder="Date" id="sortByDate" type="text" (keyup)="sortByDate()"></option>
+                </select>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="btn search-btn">SEARCH</button>
+            <button class="btn clear-btn">CLEAR SEARCH</button>
+        </div>
+    </main>
+    <div class="container-table">
+        <div class="table-filter">
+            <label for="sortByDate" class="sortBy">Sort By ::</label>
+            <select class="select-dropdown">
+                <option placeholder="Date" id="sortByDate" type="text" (keyup)="sortByDate()"></option>
+            </select>
+        </div>
+        <ag-grid-angular style="width: 70rem; height: 20rem;padding: 0.5rem;" class="ag-theme-alpine"
+            [columnDefs]="columnDefs" [defaultColDef]="defaultColDef" [rowData]="rowData" [rowSelection]="'multiple'"
+            [animateRows]="true"></ag-grid-angular>
+    </div>
+</div>
