@@ -5,6 +5,9 @@ import { AgGridModule } from 'ag-grid-angular';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StoreModule } from '@ngrx/store';
+// import { courseReducer } from './store/reducers/course.reducer';
+import { cartReducer } from './store/cart.reducer';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +17,9 @@ import { StoreModule } from '@ngrx/store';
     BrowserModule,
     AppRoutingModule,
     AgGridModule,
-    StoreModule.forRoot({}, {}),
+    // StoreModule.forRoot({cartEntries: courseReducer }),
+    // StoreModule.forRoot( courseReducer ),
+    StoreModule.forRoot({ cartEntries: cartReducer }),
     
   ],
   providers: [],

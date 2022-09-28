@@ -1,4 +1,12 @@
 <div class="container">
+    <!-- gfhsd
+    <ul>
+        <li *ngFor="let course of countProducts$ | async">
+          {{course.orderTotal}}
+        </li>
+      </ul>
+      sfgds
+      <div>counte : {{countProducts$ | async}}</div> -->
     <header class="container-header">
         Home > My Account
     </header>
@@ -20,7 +28,7 @@
             <div class="branch">
                 <label class="branch">Select Branch</label>
                 <select class="select-dropdown">
-                    <option placeholder="Date" id="sortByDate" type="text" (keyup)="sortByDate()"></option>
+                    <option placeholder="Date" id="sortByDate" type="text"></option>
                 </select>
             </div>
             <div class="branch">
@@ -36,7 +44,7 @@
             <div class="branch">
                 <label class="branch">Filter By Account</label>
                 <select class="select-dropdown">
-                    <option placeholder="Date" id="sortByDate" type="text" (keyup)="sortByDate()"></option>
+                    <option placeholder="Date" id="sortByDate" type="text" ></option>
                 </select>
             </div>
         </div>
@@ -49,7 +57,7 @@
         <div class="table-filter">
             <label for="sortByDate" class="sortBy">Sort By ::</label>
             <select class="select-dropdown">
-                <option placeholder="Date" id="sortByDate" type="text" (keyup)="sortByDate()"></option>
+                <option placeholder="Date" id="sortByDate" type="text" ></option>
             </select>
         </div>
         <ag-grid-angular style="width: 70rem; height: 20rem;padding: 0.5rem;" class="ag-theme-alpine"
