@@ -10,7 +10,7 @@ Run following commands in root directory of project step by step :
 
 Head over to browser on localhost:4200 to view application
 
-Here is the landing page:
+Here is the landing page :
 
 ![image](https://user-images.githubusercontent.com/107784718/192756446-5ce42f7f-9cb5-4900-8cad-69519b620f65.png)
 
